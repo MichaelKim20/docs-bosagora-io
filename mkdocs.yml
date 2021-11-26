@@ -67,3 +67,27 @@ nav:
     - Flash Layer: 13-flash-layer.md
   - Releases:
     - Changelog: changelog.md
+  - Wallet(한국어):
+    - 소개: ./ko/01-introduction.md
+    - 로그인: ./ko/02-login.md
+    - 상단 정보 설명: ./ko/03-top.md
+    - 개요: ./ko/04-overview.md
+    - 트랜잭션 내역: ./ko/05-transaction-history.md
+    - BOA 전송: ./ko/06-send-boa.md
+    - 검증자 생성: ./ko/07-create-validator.md
+    - 언프리징: ./ko/08-unfreezing.md
+    - 데이터 저장: ./ko/09-store-data.md
+    - 연락처 목록: ./ko/10-contact.md
+    - 설정: ./ko/11-setting.md
+  - Wallet(English):
+    - Introducetion: ./en/01-introduction.md
+    - Login: ./en/02-login.md
+    - Top: ./en/03-top.md
+    - Overview: ./en/04-overview.md
+    - Transactions history: ./en/05-transaction-history.md
+    - Send BOA: ./en/06-send-boa.md
+    - Create validator: ./en/07-create-validator.md
+    - Unfreezing: ./en/08-unfreezing.md
+    - Store Data: ./en/09-store-data.md
+    - Contact: ./en/10-contact.md
+    - Setting: ./en/11-setting.md
