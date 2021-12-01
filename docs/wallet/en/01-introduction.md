@@ -3,7 +3,7 @@
 ## Features
 
 The ability to register multiple accounts is provided.  
-The ability to use multiple outgoing accounts for one transaction is provided.
+The ability to use multiple outgoing accounts for one transaction is provided.  
 The freezing function required to create a validator is provided.  
 
 ## Monetary unit
@@ -37,7 +37,7 @@ There are two types of locked balances.
 The first is that the frozen UTXO is unfrozen, and the newly created UTXO is
  locked until 2016 new blocks are created.
 The second is the amount of UTXO used for the pending transaction.
-All transactions will lock the UTXO used in them until it is stored in the blockchain.
+The UTXO consumed in the transaction is locked until the block containing it is externalized.
 
 ## Add an account
 
@@ -69,9 +69,9 @@ Coinbase is a type of transaction used when node operation compensation and fee 
 
 ## Transaction transmission and completion
 
-When you forward the transaction you built from the wallet to the node, the node checks whether the received transaction is valid.
+When you create a transaction in the wallet and send it to the node, the node checks whether the received transaction is valid.  
 Transactions that pass the validation check wait until they are stored in the blockchain.
-This transaction is called a pending transaction.
+These transactions are called pending transactions.
 Nodes then preferentially select transactions with high [transaction fee rates](#transaction-fee-rate) among pending transactions and store them in the blockchain.
 Transactions stored in the blockchain have been completed and cannot be changed.
     

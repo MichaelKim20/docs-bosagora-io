@@ -30,7 +30,7 @@ There are two types of locked balances.
 The first is that the frozen UTXO is unfrozen, and the newly created UTXO is
  locked until 2016 new blocks are created. 
 The second is the amount of UTXO used for the pending transaction. 
-All transactions will lock the UTXO used in them until it is stored in the blockchain.
+The UTXO consumed in the transaction is locked until the block containing it is externalized.
 
 ### Mode status
 
