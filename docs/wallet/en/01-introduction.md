@@ -5,7 +5,6 @@
 The ability to register multiple accounts is provided.  
 The ability to use multiple outgoing accounts for one transaction is provided.
 The freezing function required to create a validator is provided.  
-The ability to manage contact lists is provided.  
 
 ## Monetary unit
 
